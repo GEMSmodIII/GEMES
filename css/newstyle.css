@@ -1,0 +1,24 @@
+body { 
+	padding-top: 70px; 
+	background: url("../images/chicago-skyline.jpg") no-repeat center center scroll;
+	background-size: cover;
+	background-color: black;
+	border-color: transparent;
+}
+.container {
+	background-color: white;
+}
+nav {
+	font-size: 20px;
+}
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+blockquote {
+	background-color: transparent;
+	border-color: transparent;
+}
+video {
+	align: right;
+}

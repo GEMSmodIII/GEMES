@@ -1,0 +1,105 @@
+body {
+	color: white;
+	background: url("../images/chipic2k15.jpg") no-repeat center center scroll; /*Be weary of the actaul website that the website is displayed from since it may or may not work effienctly.*/
+	background-size: cover;
+	font-family: georgia, serif;
+	font-size: 20px;
+}
+/*.wrap {
+	background-color: grey;
+	font-style: bold;*/
+/*}*/
+header h1 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: .4px;
+	padding-bottom: .4px;
+	padding-right: 10px;
+	padding-left: -3px;
+	border-radius: 50%;
+	color: white;
+	letter-spacing: -.03em;
+	font-style: italic;
+	text-shadow: 12px 12px 3px #963D5A, 1px 1px 40px blue, 3px 3px 12px red;
+	/*Change the color of the text shade later and also add the border somewhere*/
+}
+header {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: .4px;
+	padding-bottom: .4px;
+	padding-right: 10px;
+	padding-left: -3px;
+	border-radius: 50%;
+	color: orange;
+	letter-spacing: -.03em;
+	font-style: italic;
+	text-shadow: 2px 2px 3px #963D5A, 1px 1px 15px blue, 3px 3px 12px white;
+	/*Change the color of the text shade later and also add the border somewhere*/
+}
+nav {
+	text-align: center;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	padding: .4px;
+	font-style: italic;
+}
+nav ul li {
+	display: inline; /*This diplays the bullet points and whether or not the lists will be shoulder by shoulder or rught underneath each other.*/
+}
+/*create droptabs here!!!!!!*/
+nav a {
+	color: red;
+	text-decoration: none;
+}
+nav a:hover {
+    color: white;
+    text-transform: uppercase;
+    background-color: indigo;
+    text-decoration: underline;
+}
+a:hover {
+	color: white;
+	text-transform: inherit;
+	background-color: blue;
+	text-decoration: none;
+}
+/*All Images that gets edited shall be within this section*/
+img.melissa {
+	float: right;
+	border-radius: 45%;
+	border-left: dotted;
+	border-right: dotted;
+	size:30px;
+	}
+img.img-responsive {
+	border-left:dotted;
+	border-right: dotted;
+	size: 90px;
+}
+img {
+	size: 30px;
+}
+/*everything dealing with the footer is here. Be sure that it works on all pages before continuing on to all the pages*/
+footer {
+	text-align: center;
+	outline-color: red;
+	color: white;
+}
+footer a {
+	color: white;
+	font-style: italic;
+	text-decoration: none;
+}
+footer a:hover {
+	background-color: #D3D3D3;
+	color: #000000;
+	text-transform: uppercase;
+}
+footer a:active {
+	color: orange;
+	text-decoration: underline;
+}
+footer 
