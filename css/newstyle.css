@@ -10,7 +10,6 @@ body {
 	background-color: black;
 }
 .semi_transparent_bg {
-	filter: alpha(opacity=50);
 	opacity: 0.5;
 }
 nav {
